@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" type="module"></script>
+</head>
+
+<body id="body">
+    <div id="centeredRowContainer">
+        <div>Simple Pong Game</div>
+        <div id="menu">
+            <button id="multiPlayer">Local multiplayer</button>
+            <button id="singlePlayer">Play against "AI"</button>
+        </div>
+    </div>
+    <div class="rowContainer">
+        <div class="container">
+            <div class="scoreDiv">
+                <div>Score:</div>
+                <div id="scorePlayer1"></div>
+            </div>
+            <canvas id="spielfeld" width="750" height="500" style="border:3px solid #000000;"></canvas>
+            <div class="scoreDiv">
+                <div>Score:</div>
+                <div id="scorePlayer2"></div>
+            </div>
+        </div>
+        <div class="rowContainer">
+            <div>current speed:</div>
+            <div id="speed"></div>
+        </div>
+    </div>
+</body>
+
+</html>
